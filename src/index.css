@@ -1,8 +1,14 @@
-.navelements{
-   width: 50%;
-
+.navnames {
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+}
+.navbar {
+  display: flex;
+}
+.logo {
+  height: 50px;
+  width: 30%;
+  border-radius: 50px;
 }
