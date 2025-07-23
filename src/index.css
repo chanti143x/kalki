@@ -1,0 +1,8 @@
+.navelements{
+   width: 50%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}

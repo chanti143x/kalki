@@ -1,8 +1,12 @@
+import Navbar from "./pages/Navbar";
+
+
+
 function App(){
   return(
     <>
-    <h1>
-      project kalki</h1></>
+    <Navbar/>
+    </>
   )
 }
 export default App;
