@@ -8,16 +8,16 @@ function Navbar() {
           <img className="logo" src="src/assets/image.png" alt="logo" />
         </div>
         <div className="navnames">
-          <h4>home</h4>
+          <h4>Home</h4>
 
-          <h4>about us</h4>
+          <h4>About us</h4>
 
-          <h4>service</h4>
+          <h4>Service</h4>
 
-          <h4>contact us</h4>
+          <h4>Contact us</h4>
         </div>
         <div className="book-appointment">
-          <button>Hello</button>
+          <button>Book Appointment</button>
         </div>
       </div>
     </>
