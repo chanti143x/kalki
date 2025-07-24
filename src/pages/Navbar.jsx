@@ -1,6 +1,10 @@
 import "../index.css";
 
 function Navbar() {
+  function redirect() {
+    window.open("https://www.example.com/", "_blank");
+  }
+
   return (
     <>
       <div className="navbar">
@@ -17,7 +21,7 @@ function Navbar() {
           <h4>Contact us</h4>
         </div>
         <div className="book-appointment">
-          <button>Book Appointment</button>
+          <button onClick={redirect}>Book Appointment</button>
         </div>
       </div>
     </>
