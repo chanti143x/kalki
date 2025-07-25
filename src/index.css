@@ -26,3 +26,29 @@ button {
   display: flex;
   margin-top: 20px;
 }
+
+
+
+
+.heroSection {
+
+  height: 700px;
+  width: 100%;
+  background-image: url("src/assets/kalki.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.title2{
+
+  padding: 20px;
+  
+  
+
+}

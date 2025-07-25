@@ -24,8 +24,11 @@ function Navbar() {
           <button onClick={redirect}>Book Appointment</button>
         </div>
       </div>
+
+      
+      
     </>
-  );
+  )
 }
 
 export default Navbar;
