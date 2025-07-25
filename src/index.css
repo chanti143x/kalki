@@ -4,14 +4,15 @@
   justify-content: space-between;
   align-items: center;
   margin-left: 200px;
-  
-  
+}
+
+.hello {
+  background: beige;
+  padding-top: 20px;
 }
 .navbar {
   display: flex;
   background-color: aliceblue;
-  
-  
 }
 .logo {
   height: 50px;
@@ -21,17 +22,12 @@
 }
 
 button {
-
   margin-left: 300px;
   display: flex;
   margin-top: 20px;
 }
 
-
-
-
 .heroSection {
-
   height: 700px;
   width: 100%;
   background-image: url("src/assets/kalki.png");
@@ -43,12 +39,6 @@ button {
   justify-content: center;
 }
 
-
-
-.title2{
-
-  padding: 20px;
-  
-  
-
+.title2 {
+  padding-top: 20px;
 }
