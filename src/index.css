@@ -1,3 +1,13 @@
+*{
+
+  margin: 0%;
+  padding: 0%;
+  
+}
+
+
+
+
 .navnames {
   width: 25%;
   display: flex;
@@ -14,6 +24,7 @@
 .navbar {
   display: flex;
   background-color: aliceblue;
+  margin: 0%;
 }
 .logo {
   height: 50px;
@@ -29,8 +40,8 @@ button {
 }
 
 .heroSection {
-  height: 700px;
-  width: 100%;
+  height: 600px;
+  width: 100%; 
   background-image: url("src/assets/kalki.png");
   background-size: cover;
   background-position: center;
@@ -47,9 +58,60 @@ button {
   align-items: center;
   justify-content: space-between;
   
+  
 }
 
 .space {
   
   padding: 300px;
 }
+
+.title1{
+
+  margin-bottom: 30px;
+}
+
+.advertizing{
+
+  height: 150px;
+  width: 100%;
+  background-color: rgb(161, 230, 230);
+  display: flex;
+  flex-direction: row;
+  
+
+
+}
+
+.contact{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 500px;
+  margin-left: 200px;
+
+}
+
+
+.callicon{
+
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  align-items: start;
+  margin-right: 20px;
+  
+  
+}
+
+.contactButton{
+
+  margin-right: 600px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
